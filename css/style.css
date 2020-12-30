@@ -2,10 +2,6 @@
         margin-top: 0rem;
     }
 
-    button {
-        padding: 0rem !important;
-        border-radius: 8rem !important;
-    }
 
     .nav-link {
         display: block;
@@ -376,4 +372,32 @@
         -o-filter: grayscale(100%);
         filter: grayscale(100%);
         position: absolute;
+    }
+
+    .col-2>a>img:hover {
+        width: 120%;
+        margin: 0;
+    }
+    .col-2>a>img {
+        margin: 10%;
+    }
+
+    .col-2>img:hover {
+        width: 120%;
+        margin-bottom: 0rem;
+    }
+
+    .col-2>img {
+        margin-bottom: 4rem;
+    }
+
+    .color_black{
+        color:black!important;
+    }
+
+
+    @media(min-width:1200px) {
+        .ex_footer_img{
+            margin-top: calc(1vw * 2);
+        }
     }
