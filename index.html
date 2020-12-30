@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" prefix="og: https://ogp.me/ns#">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"　content="普通の高校生です。
+    今、社会では、ビジネスや市場の分析において、データの活用が非常に重要になっております。
+    ですから、データ分析とデータ活用の技術を使って、社会で活躍したい....
+    一人でも多くの人のためになりたい...
+    そんな思いでプログラミングを始めました。
+    いろんな人とわいわいしながら開発するのが、大好きです。
+    まだ高校生なので、たくさんのことを経験したいです！！！
+    アジャイル開発やWeb開発、アプリ開発の経験もあります。
+    一緒にプログラミングを楽しみましょう。">
+    <meta name="keywords" content="種村, 圭依人, 実績, Keito, Tanemura, Keito Tanemura">
+    <link rel="shortlink" href="https://tanesan.github.io">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>種村圭依人(Keito Tanemura)</title>
 </head>
 
 <header>
@@ -16,12 +30,13 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navmenu1">
             <div class="navbar-nav">
-                <a class="nav-item nav-link mr-3" href="#">私について</a>
-                <a class="nav-item nav-link mr-3" href="#">経験</a>
+                <a class="nav-item nav-link mr-3" href="#aboutme">私について</a>
+                <a class="nav-item nav-link mr-3" href="#experience">経験</a>
                 <a class="nav-item nav-link mr-3" href="https://migimagaru.com/">ブログ</a>
-                <a class="nav-item nav-link mr-3" href="#">論文・実績</a>
+                <a class="nav-item nav-link mr-3" href="#project">制作物</a>
+                <a class="nav-item nav-link mr-3" href="#awards">論文・実績</a>
                 <button type="button" class="btn btn-primary btn-sm"><a class="nav-item nav-link"
-                        style="color:white!important" href="#">お問い合わせ</a></button>
+                        style="color:white!important" href="#support">お問い合わせ</a></button>
             </div>
         </div>
     </div>
@@ -44,7 +59,7 @@
                     class="nomal">(Mathematicaの記事を担当しました)</span></a>
         </div>
 
-        <h2 class="name_title"><span style="border-bottom: solid 5px #8D8D8D;">About me</span></h2>
+        <h2 id="aboutme" class="name_title"><span style="border-bottom: solid 5px #8D8D8D;">About me</span></h2>
         <div class="about_description">
             <p class="mt-4">
                 普通の高校生です。
@@ -58,69 +73,71 @@
                 一緒にプログラミングを楽しみましょう。
             </p>
         </div>
-        <h2 class="name_title mt-5"><span style="border-bottom: solid 5px #8D8D8D;">Experience</span></h2>
+        <h2 id="experience" class="name_title mt-5"><span style="border-bottom: solid 5px #8D8D8D;">Experience</span>
+        </h2>
 
         <div class="row mt-4">
             <div class="col-6 mb-4">
                 <div class="box p-4">
                     <span class="paper_heading">Web</span>
-                    <a href="experience.html"></a>
+                    <a href="experience.html#products"></a>
                     <img src="img/webapplication.svg">
                 </div>
             </div>
             <div class="col-6 mb-4">
                 <div class="box p-4">
                     <span class="paper_heading">Ios / Android</span>
-                    <a href="experience.html"></a>
+                    <a href="experience.html#products"></a>
                     <img class="ex_img" src="img/ios.svg">
                 </div>
             </div>
         </div>
-        <h2 class="name_title mt-5"><span style="border-bottom: solid 5px #8D8D8D;">Project</span></h2>
+        <h2 id="project" class="name_title mt-5"><span style="border-bottom: solid 5px #8D8D8D;">Project</span></h2>
         <div class="row mt-4">
             <div class="col-6 mb-4">
                 <div class="box p-4">
                     <span class="paper_heading">2019</span>
-                    <a href="experience.html"></a>
+                    <a href="experience.html#products"></a>
                     <img src="img/2019.svg">
                 </div>
             </div>
             <div class="col-6 mb-4">
                 <div class="box p-4">
                     <span class="paper_heading">2020</span>
-                    <a href="experience.html"></a>
+                    <a href="experience.html#products"></a>
                     <img src="img/2020.svg">
                 </div>
             </div>
 
         </div>
-        <h2 class="name_title mt-5"><span style="border-bottom: solid 5px #8D8D8D;">Paper & Awards</span></h2>
+        <h2 id="awards" class="name_title mt-5"><span style="border-bottom: solid 5px #8D8D8D;">Paper & Awards</span>
+        </h2>
         <div class="row mt-4">
             <div class="col-12 mb-4">
                 <div class="box_exp p-4">
-                    <span class="paper_heading">査読付き論文</span>
-                    <a href="experience.html"></a>
+                    <span class="paper_heading">国際学会発表 査読有り</span>
+                    <a href="experience.html#Refereed_Papers"></a>
                     <img class="paper_img" src="img/check_paper.svg">
                 </div>
             </div>
             <div class="col-12 mb-4">
                 <div class="box_exp p-4">
-                    <span class="paper_heading">査読なし論文</span>
-                    <a href="experience.html"></a>
+                    <span class="paper_heading">国内学会発表 査読なし</span>
+                    <a href="experience.html#No_refereed_Papers"></a>
                     <img class="paper_img" src="img/paper_presentation.svg">
                 </div>
             </div>
             <div class="col-12 mb-4">
                 <div class="box_exp p-4">
                     <span class="paper_heading">ワークショップ</span>
-                    <a href="experience.html"></a>
+                    <a href="experience.html#workshop"></a>
                     <img class="paper_img" src="img/workshop.svg">
                 </div>
             </div>
             <div class="col-12 mb-4">
                 <div class="box_exp p-4">
                     <span class="paper_heading">表彰</span>
-                    <a href="experience.html"></a>
+                    <a href="experience.html#awards"></a>
                     <img class="paper_img" src="img/award.svg">
                 </div>
             </div>
@@ -130,12 +147,17 @@
 
 </body>
 <footer>
-    <div class="p-4 original-footer">
+    <div id="support" class="p-4 original-footer">
         <p class="center footer_big_right_margin"><span>依頼</span>や<span>相談</span>があれば</p>
         <p class="center footer_big_left_margin">ぜひお問い合わせください。</p>
-        <p class="center nomal footer_big_right_margin">keito.12.10あっとまーくicloud.com</p>
-        <p class="footer-background">Please contact us</p>
-
+        <p class="center nomal">Email: keito.12.10[at]icloud.com</p>
+        <p class="center nomal"><a href="https://www.wantedly.com/id/keito_tanemura">Wantedly</a></p>
+        <p class="center nomal"><a href="https://twitter.com/KeitoTanemura">Twitter: @KeitoTanemura</a></p>
+        <p class="center nomal"><a href="https://github.com/tanesan">GitHub: Tanesan</a></p>
+        <p class="center nomal"><a href="https://www.facebook.com/profile.php?id=100040940979547">Facebook: Keito
+                Tanemura</a></p>
+        <p class="footer-background">Please contact me</p>
+        <p>Copyright © Keito Tanemura 2020-2021, All Rights Reserved.</p>
     </div>
 </footer>
 

@@ -3,8 +3,39 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"　content="普通の高校生です。
+    今、社会では、ビジネスや市場の分析において、データの活用が非常に重要になっております。
+    ですから、データ分析とデータ活用の技術を使って、社会で活躍したい....
+    一人でも多くの人のためになりたい...
+    そんな思いでプログラミングを始めました。
+    いろんな人とわいわいしながら開発するのが、大好きです。
+    まだ高校生なので、たくさんのことを経験したいです！！！
+    アジャイル開発やWeb開発、アプリ開発の経験もあります。
+    一緒にプログラミングを楽しみましょう。">
+    <meta name="keywords" content="種村, 圭依人, 実績, Keito, Tanemura, Keito Tanemura">
+    <link rel="shortlink" href="https://tanesan.github.io">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>業績一覧 - 種村圭依人(Keito Tanemura)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#project_table').DataTable({
+                "responsive": true,
+                "ordering": false,
+                "paging": false,
+                "info": false
+            });
+        });
+    </script>
 </head>
 <header>
     <div class="navbar navbar-expand" style="color:white!important">
@@ -28,20 +59,28 @@
 
 <body>
     <div class="container">
-        <h2 class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">プロフィール Profile</h2>
-            <section class="main_profile">
-                <ul>
-                <li><p>人の最大の力を競う数学の大会 実行委員長　2019.11~</p></li>
-                <li><p>関西学院高等部　2018.4~</p></li>
-                <li><p>関西学院高等部数理科学部　マネージャー　2019.4~</p></li>
+        <h2 id="profile" class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">プロフィール Profile
+        </h2>
+        <section class="main_profile">
+            <ul>
+                <li>
+                    <p>人の最大の力を競う数学の大会 実行委員長　2019.11~</p>
+                </li>
+                <li>
+                    <p>関西学院高等部　2018.4~</p>
+                </li>
+                <li>
+                    <p>関西学院高等部数理科学部　マネージャー　2019.4~</p>
+                </li>
             </ul>
 
-            </section>
+        </section>
 
 
-        <h2 class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">国際学会発表 Refereed Papers in Conferences</span></h2>
+        <h2 id="Refereed_Papers" class="name_title mt-5 mb-4"><span
+                style="border-bottom: solid 5px #8D8D8D;">国際学会発表(査読有) Refereed Papers in Conferences</span></h2>
         <section>
-            <ol>
+            <ol reversed="reversed">
                 <li>
                     <p>Ryohei Miyadera, Mariko Kashiwagi, Masanori Fukui, Akira Murakami, <u>Keito Tanemura</u>, Itsuki
                         Kitagawa, Kazuya Hiramatsu and Shintaro Kaiomto,”Wythoff’s Game with a Pass “,  JCDCG^3 2019,
@@ -68,9 +107,10 @@
                 </li>
             </ol>
         </section>
-        <h2 class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">国内学会発表　No-refereed Papers in Conferences</span></h2>
+        <h2 id="No_refereed_Papers" class="name_title mt-5 mb-4"><span
+                style="border-bottom: solid 5px #8D8D8D;">国内学会発表(査読無) No-refereed Papers in Conferences</span></h2>
         <section>
-            <ol>
+            <ol reversed="reversed">
                 <li>
                     <p>寺本 雅治, 坂本 悠輔, <u>種村 圭依人</u>, 宮寺 良平, 福井 昌則, ``Multiplying to 1000 とその変形'', ゲーム学会第17回合同研究会, 2019,
                         香川</p>
@@ -82,75 +122,131 @@
             </ol>
         </section>
 
-        <h2 class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">ワークショップ Workshop</span></h2>
+        <h2 id="workshop" class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">ワークショップ
+                Workshop</span></h2>
         <section>
-            <ol>
+            <ol reversed="reversed">
                 <li>
                     <p>Ryohei Miyadera, Daisuke Minematsu, Masanori Fukui, Yushi Nakaya, Yuji Sasaki, Jo Hagikura,
                         Shintaro Kaimoto, Nazuki Terakawa, <u>Keito Tanemura</u>, Akira Murakami, Itsuki Kitagawa,
                         Kazuya Hiramatsu, Has Contributed to the success of SEAMEO Education Agenda and Blended Mode
                         Training Programme’LearnT-SMArET with Promotion of Scientific/Mathematical, Problem-Solving and
-                        Computational Thinking Skills,Malysia SEAMEO RECSAM, 2019, Workshop</p>
+                        Computational Thinking Skills,Malysia Seameo Recsam, Penang, Malaysia, 2019, Workshop</p>
+                </li>
+                <li>
+                    <p>Ryohei Miyadera, Daisuke Minematsu, Masanori Fukui, Yushi Nakaya, Yuji Sasaki, Jo Hagikura,
+                        Shintaro Kaimoto, Nazuki Terakawa, <u>Keito Tanemura</u>, Akira Murakami, Has Contributed to the
+                        success of SEAMEO Education Agenda and Blended Mode
+                        Training Programme’LearnT-SMArET with Promotion of Scientific/Mathematical, ``Workshop on
+                        Enhancing Creativity through Transdisciplinary Mathematics Education'', Seameo Recsam, Penang,
+                        Malaysia, August 27-28, 2018, Workshop
+                        <a
+                            href="http://www.recsam.edu.my/joomla/Images/PDF_Files/Creativity_through_Transdisciplinary.pdf">http://www.recsam.edu.my/joomla/Images/PDF_Files/Creativity_through_Transdisciplinary.pdf</a>
+                    </p>
                 </li>
             </ol>
         </section>
 
-        <h2 class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">表彰 Awards</span></h2>
+        <h2 id="awards" class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">表彰 Awards</span>
+        </h2>
         <section>
-            <ol>
+            <ol reversed="reversed">
                 <li>
-                    <p>Web×IoT メイカーズチャレンジ <strong>チームワーク賞</strong> 2020.11
-                    </p>
+                    <p>Web×IoT メイカーズチャレンジ <strong>チームワーク賞</strong> 2020.11 </p>
                 </li>
                 <li>
                     <p>高校生科学技術チャレンジJsec2019 <strong>入賞</strong> 2019</p>
                 </li>
                 <li>
-                    <p>武蔵野大学数理工学コンテスト<strong>奨励賞</strong> 2019.11
+                    <p>武蔵野大学数理工学コンテスト<strong>奨励賞</strong> 2019.11</p>
+                </li>
+                <li>
+                    <p>関西学院大学後援会「<strong>KWANSEI BRIGHTNESS AWARDS 2019年度</strong>」表彰 2019.1 <a
+                            href="https://kgkouenkai.jp/campus_life/award/">https://kgkouenkai.jp/campus_life/award/</a>
                     </p>
                 </li>
                 <li>
-                    <p>関西学院大学後援会「<strong>KWANSEI BRIGHTNESS AWARDS 2019年度</strong>」表彰 2019.1 <a href="https://kgkouenkai.jp/campus_life/award/">https://kgkouenkai.jp/campus_life/award/</a>
-                    </p>
-                </li>
-                <li>
-                    <p>柏木　麻里子,<u>種村　圭依人</u>,村上　聡,海本　晋太朗,今西　敏都,数学的活動によって創造的な人を育てる方法の研究とその方法のアジア圏での普及,SGH甲子園,<strong>日本語優秀賞</strong> 2019.3</p>
+                    <p>柏木　麻里子,<u>種村　圭依人</u>,村上　聡,海本　晋太朗,今西　敏都,数学的活動によって創造的な人を育てる方法の研究とその方法のアジア圏での普及,SGH甲子園,<strong>日本語優秀賞</strong>
+                        2019.3</p>
                 </li>
                 <li>
                     <p>サイエンスキャッスル <strong>優秀賞</strong> 2018.2</p>
                 </li>
                 <li>
-                    <p>関西学院大学後援会「<strong>KWANSEI BRIGHTNESS AWARDS 2018年度</strong>」表彰2018.1 <a href="https://kgkouenkai.jp/campus_life/award/">https://kgkouenkai.jp/campus_life/award/</a>
+                    <p>関西学院大学後援会「<strong>KWANSEI BRIGHTNESS AWARDS 2018年度</strong>」表彰2018.1 <a
+                            href="https://kgkouenkai.jp/campus_life/award/">https://kgkouenkai.jp/campus_life/award/</a>
                     </p>
                 </li>
             </ol>
         </section>
 
-        <h2 class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">制作物 Products</span></h2>
+        <h2 id="products" class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">制作物
+                Products</span></h2>
         <section>
-            <ol>
-                <li>
-                    <p>面接練習アプリ（改良中）2020.12 </p>
-                </li>
-                <li>
-                    <p>監視見守りシステム 2020.11 </p>
-                </li>
-                <li>
-                    <p>tonguer 2020.11 </p>
-                </li>
-                <li>
-                    <p>typingmv 2020.9 </p>
-                </li>
-                <li>
-                    <p>web tool sharing 2020.6 </p>
-                </li>
-                <li>
-                    <p>エコノミー症候群対策ゲーム 2019.8 </p>
-                </li>
-            </ol>
+            <table id="project_table" class="table table-borderless hover no-footer responsive">
+                <thead>
+                    <tr>
+                        <th>タイトル</th>
+                        <th>製作日</th>
+                        <th>媒体</th>
+                        <th>使用技術</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>面接練習アプリ（改良中）</td>
+                        <td>2020.12</td>
+                        <td><span class="badge ml-2 badge-primary">Ios / Android Application</span></td>
+                        <td><span class="ml-2 badge badge-pill badge-light">Flutter</span></td>
+                    </tr>
+                    <tr>
+                        <td>監視見守りシステム</td>
+                        <td>2020.11</td>
+                        <td><span class="badge ml-2 badge-primary">Ios / Android Application</span><span
+                                class="badge ml-2 badge-success">Web Application</span><span
+                                class="badge ml-2 badge-secondary">IoT device</span></td>
+                        <td><span class="ml-2 badge badge-pill badge-light">Microbit</span><span
+                                class="ml-2 badge badge-pill badge-light">Raspberry pi</span><span
+                                class="ml-2 badge badge-pill badge-light">Python</span><span
+                                class="ml-2 badge badge-pill badge-light">Flutter</span><span
+                                class="ml-2 badge badge-pill badge-light">Django</span><span
+                                class="ml-2 badge badge-pill badge-light">Line Bot</span></td>
+                    </tr>
+                    <tr>
+                        <td>tonguer</td>
+                        <td>2020.11</td>
+                        <td> <span class="badge ml-2 badge-primary">Ios / Android Application</span></td>
+                        <td> <span class="ml-2 badge badge-pill badge-light">Flutter</span></td>
+                    </tr>
+                    <tr>
+                        <td>typingmv</td>
+                        <td>2020.09</td>
+                        <td><span class="badge ml-2 badge-success">Web Application</span></td>
+                        <td><span class="ml-2 badge badge-pill badge-light">Flask</span><span
+                                class="ml-2 badge badge-pill badge-light">JavaScript</span><span
+                                class="ml-2 badge badge-pill badge-light">Firebase</span></td>
+                    </tr>
+                    <tr>
+                        <td>web tool sharing</td>
+                        <td>2020.06</td>
+                        <td><span class="badge ml-2 badge-success">Web Application</span></td>
+                        <td><span class="ml-2 badge badge-pill badge-light">React</span><span
+                                class="ml-2 badge badge-pill badge-light">Flask</span><span
+                                class="ml-2 badge badge-pill badge-light">JavaScript</span></td>
+                    </tr>
+                    <tr>
+                        <td>エコノミー症候群対策ゲーム</td>
+                        <td>2019.08</td>
+                        <td><span class="badge ml-2 badge-secondary">IoT device</span></td>
+                        <td><span class="ml-2 badge badge-pill badge-light">Raspberry pi</span><span
+                                class="ml-2 badge badge-pill badge-light">Python</span></td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-
-        <h2 class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">スキル Skills</span></h2>
+        <p>詳細はWantedlyのサイトをご確認ください。</p>
+        <h2 id="skills" class="name_title mt-5 mb-4"><span style="border-bottom: solid 5px #8D8D8D;">スキル Skills</span>
+        </h2>
         <section>
             <ul>
                 <li>
@@ -158,6 +254,9 @@
                 </li>
                 <li>
                     <p>HTML, CSS, JavaScript</p>
+                </li>
+                <li>
+                    <p>Mathematica</p>
                 </li>
                 <li>
                     <p>PHP</p>
@@ -182,7 +281,8 @@
                 </li>
             </ul>
         </section>
-<p>これ以外の実績、経歴等は<a href="https://www.wantedly.com/id/keito_tanemura">Wantedlyのサイト</a>をご確認ください。<a href="https://www.wantedly.com/id/keito_tanemura">こちら</a></p>
+        <p>これ以外の実績、経歴等は<a href="https://www.wantedly.com/id/keito_tanemura">Wantedlyのサイト</a>をご確認ください。<a
+                href="https://www.wantedly.com/id/keito_tanemura">こちら</a></p>
 
 
 
@@ -192,12 +292,17 @@
 
 
 <footer>
-    <div class="p-4 original-footer">
+    <div id="support" class="p-4 original-footer">
         <p class="center footer_big_right_margin"><span>依頼</span>や<span>相談</span>があれば</p>
         <p class="center footer_big_left_margin">ぜひお問い合わせください。</p>
-        <p class="center nomal footer_big_right_margin">keito.12.10あっとまーくicloud.com</p>
-        <p class="footer-background">Please contact us</p>
-
+        <p class="center nomal">Email: keito.12.10[at]icloud.com</p>
+        <p class="center nomal"><a href="https://www.wantedly.com/id/keito_tanemura">Wantedly</a></p>
+        <p class="center nomal"><a href="https://twitter.com/KeitoTanemura">Twitter: @KeitoTanemura</a></p>
+        <p class="center nomal"><a href="https://github.com/tanesan">GitHub: Tanesan</a></p>
+        <p class="center nomal"><a href="https://www.facebook.com/profile.php?id=100040940979547">Facebook: Keito
+                Tanemura</a></p>
+        <p class="footer-background">Please contact me</p>
+        <p>Copyright © Keito Tanemura 2020-2021, All Rights Reserved.</p>
     </div>
 </footer>
 
