@@ -266,11 +266,11 @@
         }
 
         .name_description {
-            font-size: 8px !important;
+            font-size: .8rem !important;
         }
 
         .about_description {
-            font-size: 8px !important;
+            font-size: 16px !important;
         }
 
         .name_title {
