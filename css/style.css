@@ -415,10 +415,9 @@
         font-weight: 600;
     }
 
-    .paper_heading_Num{
-        font-weight: 200;
-    }
-
     .back_ground_big{
         font-weight: 700;
+    }
+    .font_weight_300{
+        font-weight: 300!important;
     }
