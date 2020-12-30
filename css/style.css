@@ -310,12 +310,12 @@
 
         .paper_img {
             margin-left: 20% !important;
-            object-fit: cover; 
+            object-fit: cover;
         }
 
         .cp_paper_img {
             margin-left: 30% !important;
-            object-fit: cover; 
+            object-fit: cover;
         }
 
         .img_year {
@@ -380,6 +380,7 @@
         width: 120%;
         margin: 0;
     }
+
     .col-2>a>img {
         margin: 10%;
     }
@@ -393,31 +394,43 @@
         margin-bottom: 4rem;
     }
 
-    .color_black{
-        color:black!important;
+    .color_black {
+        color: black !important;
     }
 
 
     @media(min-width:1200px) {
-        .ex_footer_img{
+        .ex_footer_img {
             margin-top: calc(1vw * 2);
+        }
+
+        .top_side {
+            margin-top: calc(10vw * 6) !important;
         }
     }
 
-    .ml-ex{
+    @media(min-width:1460px) {
+        .top_side {
+            margin-top: calc(9vw * 7) !important;
+        }
+    }
+
+    .ml-ex {
         margin-left: 6%;
     }
 
-    .name{
+    .name {
         font-weight: 200;
     }
-    .paper_heading{
+
+    .paper_heading {
         font-weight: 600;
     }
 
-    .back_ground_big{
+    .back_ground_big {
         font-weight: 700;
     }
-    .font_weight_300{
-        font-weight: 300!important;
+
+    .font_weight_300 {
+        font-weight: 300 !important;
     }
