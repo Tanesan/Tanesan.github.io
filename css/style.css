@@ -267,6 +267,7 @@
 
         .name_description {
             font-size: .8rem !important;
+            font-weight: 500 !important;
         }
 
         .about_description {
