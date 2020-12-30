@@ -303,7 +303,7 @@
         }
 
         .ex_img {
-            margin-left: 22px;
+            margin-left: 5%;
             margin-top: 29px;
             height: 85%;
         }
@@ -400,4 +400,8 @@
         .ex_footer_img{
             margin-top: calc(1vw * 2);
         }
+    }
+
+    .ml-ex{
+        margin-left: 6%;
     }
