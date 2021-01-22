@@ -253,7 +253,8 @@
 
     @media(max-width:535px) {
         .top_side {
-            margin-top: 48vw;
+            margin-top: 30vw;
+            margin-bottom: .2rem!important;
         }
 
         .name_title_ex {
