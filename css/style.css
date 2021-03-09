@@ -413,6 +413,7 @@
 
         .top_side {
             margin-top: calc(10vw * 6) !important;
+            margin-bottom: 6vw!important;
         }
     }
 
