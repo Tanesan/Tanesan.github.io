@@ -450,11 +450,15 @@ body {
 }
 
 .award_long_image {
-    width: 50%;
+    width: 40%;
     text-align: center;
 }
 
 .award_span {
     vertical-align: text-top;
     font-size: 18px;
+}
+
+.w-90 {
+    width:90%;
 }
